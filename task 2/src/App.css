@@ -1,0 +1,91 @@
+* {
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  body {
+    background-size: cover;
+    background: url('download.jpg');
+  }
+  
+  .navb{
+    
+    color:azure;
+    height: 70px;
+    padding: 20px;
+    padding-top: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(216, 134, 40);
+  }
+  
+  h1{
+    float: left;
+    color: #fff;
+    padding-top: 18px;
+    padding-left: 10px;
+    font-size: 30px;
+  
+  }
+  
+  .btn{
+    padding:10px;
+    margin-top: 15px;
+    cursor: pointer;
+    float: right;
+    background-color: black;
+    border-radius: 5px;
+  }
+  
+  .btn:hover{
+    background-color:rgb(221, 15, 25);
+    padding: 12px;
+    color:white;
+    border-radius:50% 50%;
+  }
+  
+  .row{
+    margin: 40px;
+  }
+  
+  .column{
+    padding: 20px 20px;
+    float: left;
+    width: 25%;
+    margin: 20px;
+  }
+  .card{
+    text-align: center;
+    box-shadow: 0 3px 6px 0 rgb(0 1 0 / 85%);
+    padding: 25px;
+    background-color:rgb(75 165 75 / 88%);
+  }
+  .card-img-top{
+    
+    width: 50%;
+    border: 1px solid rgb(255, 94, 0);
+    border-radius: 50%;
+  }
+  .card-text{
+    color:rgb(248, 246, 246);
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .card-title{
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .card:hover{
+    box-shadow: 0px 0px 5px 5px rgb(231, 85, 85);
+    cursor: pointer;
+  }
+  
+  .card:hover .card-text{
+    color: rgb(228, 0, 0);
+  }
+  
+  @media screen and (max-width:600px){
+    .column{
+      display: block;
+      margin-bottom: 30px;
+      width: 100%;
+    }
+    
+  }
